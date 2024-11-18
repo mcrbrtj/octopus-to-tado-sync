@@ -7,6 +7,7 @@ name: Run Tado-Octopus Script
 
 on:
   schedule:
+  # Run daily at 12am
     - cron: '0 0 * * *'
 
 jobs:
